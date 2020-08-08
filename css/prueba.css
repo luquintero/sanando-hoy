@@ -1,0 +1,376 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+  html body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    background-color: #F0F7F4; }
+    html body article {
+      margin-bottom: 10px;
+      margin-top: 10px; }
+    html body h1 {
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 3rem;
+      color: #6a0f49;
+      text-shadow: 1px 1px 2px;
+      text-align: center; }
+    html body .article__h2--violeta, html body .article__h2--verde {
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 2.5rem; }
+    html body .article__h3--lila, html body .main__h3, html body .main__h3--black {
+      font-family: 'Lato', sans-serif;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      text-shadow: 2px 2px 4px; }
+    html body .article__h2--violeta {
+      color: #A569BD; }
+    html body .article__h2--verde {
+      color: #73C6B6; }
+    html body .article__h3--lila {
+      color: #D2B4DE; }
+    html body .div__h2--verde {
+      color: #75c9c8;
+      font-family: 'Lato', sans-serif;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      text-shadow: 2px 2px 4px; }
+    html body .div__main--sobremi .div__h2--margin {
+      color: #75c9c8;
+      font-family: 'Lato', sans-serif;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      text-shadow: 2px 2px 4px; }
+    html body p {
+      color: #566573;
+      line-height: 2rem;
+      text-align: justify; }
+    html body div {
+      box-sizing: border-box;
+      padding: 5px 20px 5px 20px; }
+    html body header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: #E0B1CB;
+      border-top: 1px solid #6a0f49;
+      font-size: 1.5rem;
+      height: 100px; }
+      html body header nav {
+        width: 100%;
+        margin: 10px auto;
+        background-color: #E0B1CB; }
+        html body header nav .header__logo {
+          background-color: #E0B1CB;
+          box-sizing: border-box;
+          margin-left: 10px;
+          flex-grow: 1;
+          align-self: center; }
+        html body header nav #navbarSupportedContent {
+          background-color: #E0B1CB; }
+        html body header nav .navbar-toggler {
+          color: #6a0f49;
+          border-color: #6a0f49; }
+        html body header nav .nav__menu li {
+          display: inline-block;
+          position: relative;
+          background-color: #E0B1CB; }
+        html body header nav .nav__menu li a {
+          display: block;
+          padding: 20px 30px;
+          text-decoration: none; }
+        html body header nav .nav__submenu {
+          position: absolute;
+          z-index: 1;
+          font-family: 'Alegreya Sans SC', sans-serif;
+          font-weight: lighter;
+          font-style: italic;
+          font-size: 1.3rem;
+          display: none;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+          background-color: #ebcddd; }
+        html body header nav .nav__submenu a {
+          background-color: #ebcddd;
+          display: block;
+          width: 100%;
+          padding-right: 30px;
+          padding-bottom: 20px;
+          text-decoration: none;
+          text-align: left;
+          border-bottom: solid 1px #7E5A9B; }
+        html body header nav .nav__menu li:hover .nav__submenu {
+          display: block; }
+        html body header nav .nav__submenu a:hover {
+          background-color: #c9ffe2;
+          color: #9B59B6; }
+        html body header nav ul li {
+          list-style: none; }
+        html body header nav a:link {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #6a0f49; }
+        html body header nav a:visited {
+          color: #6a0f49; }
+        html body header nav a:hover {
+          color: #c9ffe2; }
+    html body .div__h1--gradient {
+      background-image: linear-gradient(to bottom left, rgba(224, 177, 203, 0), #e0b1cb);
+      border-top: 1px solid #6a0f49;
+      border-bottom: 1px solid #6a0f49; }
+    html body button {
+      border-radius: 4px;
+      font-size: 1rem;
+      font-family: 'Lato', sans-serif;
+      background-color: #F0F7F4;
+      border-color: #6a0f49; }
+    html body .article__button--scale {
+      transition-duration: 0.5s;
+      padding: 5px 5px;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-family: 'Lato', sans-serif;
+      background-color: #F0F7F4;
+      border-color: #6a0f49; }
+      html body .article__button--scale:hover {
+        transform: scale(1.05, 1.05);
+        background-color: #D2B4DE;
+        padding: 10px 10px; }
+    html body .article__button--scaleverde {
+      transition-duration: 0.5s;
+      padding: 5px 5px;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-family: 'Lato', sans-serif;
+      background-color: #F0F7F4;
+      border-color: #6a0f49; }
+      html body .article__button--scaleverde:hover {
+        transform: scale(1.05, 1.05);
+        background-color: #73C6B6;
+        padding: 10px 10px; }
+    html body main .main__index {
+      padding-right: 0px;
+      padding-left: 0px; }
+    html body #carouselExampleIndicators {
+      padding: 0px; }
+    html body .carousel-inner {
+      padding: 0px; }
+    html body .carousel-item {
+      padding: 0px; }
+    html body .main__p {
+      color: #FFFFFF;
+      font-size: 1.5rem;
+      text-align: center; }
+    html body .main__h3 {
+      color: #FFFFFF; }
+    html body .main__h3--black {
+      color: #FFFFFF; }
+    html body .main__button {
+      background-color: #D2B4DE;
+      border-color: #D2B4DE;
+      border-radius: 4px;
+      font-size: 1rem;
+      font-family: 'Lato', sans-serif; }
+    html body .div__certificaciones {
+      box-sizing: border-box;
+      padding-top: 10px;
+      border-top: 1px solid #6a0f49; }
+    html body .div__practicas {
+      box-sizing: border-box;
+      padding-top: 10px;
+      border-top: 1px solid #6a0f49; }
+      html body .div__practicas .div__p--margin {
+        margin-right: 5px;
+        padding-left: 0px; }
+    html body .main__h2--black {
+      font-family: 'Lato', sans-serif;
+      color: #424242;
+      text-transform: none;
+      font-size: 1.5rem; }
+    html body table {
+      border-color: #566573;
+      border-style: solid;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      margin-left: 10px; }
+      html body table tr:hover {
+        background-color: #EBDEF0; }
+      html body table th {
+        background-color: #BDC3C7;
+        text-align: center;
+        padding: 10px; }
+      html body table td {
+        text-align: left;
+        padding: 10px; }
+    html body .article__p--destacado {
+      font-weight: bold;
+      font-style: italic; }
+    html body .div__main--borde {
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-bottom: 1px solid #6a0f49; }
+    html body .body__div--borde {
+      box-sizing: border-box;
+      border-top: 1px solid #6a0f49; }
+    html body .div__videos {
+      border-top: 1px solid #6a0f49; }
+    html body .section__iframe--center {
+      display: flex;
+      align-items: center;
+      width: 100%; }
+    html body .div__main--sobremi {
+      box-sizing: border-box;
+      padding-top: 20px;
+      padding-left: 40px; }
+      html body .div__main--sobremi .main__img--width {
+        width: 300px;
+        height: auto;
+        box-sizing: border-box;
+        padding-right: 10%; }
+      html body .div__main--sobremi .div__h2--margin {
+        margin-top: 20px; }
+    html body .main__p--margin {
+      width: 80%;
+      height: auto;
+      margin-left: 0px;
+      padding-left: 0px;
+      margin-top: 20px;
+      padding-bottom: 0px; }
+    html body .section__div--disciplinas {
+      margin-top: 20px;
+      border-top: 1px solid #6a0f49; }
+      html body .section__div--disciplinas .div__h3--verde {
+        color: #75c9c8;
+        font-family: 'Lato', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        text-align: left; }
+      html body .section__div--disciplinas .ul__li--lila {
+        list-style-image: url("../Multimedia/Flor-de-loto-20px.png");
+        font-size: 1.3rem;
+        font-style: italic;
+        color: #D2B4DE;
+        background-color: #F0F7F4; }
+    html body .practicas__descripcion {
+      margin-top: 20px;
+      padding-left: 0px;
+      width: 90%; }
+    html body .div__section--contacto {
+      margin-bottom: 20px; }
+      html body .div__section--contacto .form__input--boton {
+        margin-top: 10px; }
+        html body .div__section--contacto .form__input--boton:hover {
+          background-color: #ebcddd;
+          color: #6a0f49; }
+    html body footer {
+      height: 80px;
+      font-size: 1.2rem;
+      background-color: #E0B1CB;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 15px;
+      border-top: 1px solid #6a0f49;
+      border-bottom: 1px solid #6a0f49; }
+      html body footer .footer__img--display {
+        background-color: #E0B1CB;
+        display: flex;
+        width: 20%;
+        justify-content: space-around; }
+        html body footer .footer__img--display img {
+          width: 40px;
+          height: auto; }
+      html body footer ul li {
+        list-style: none; }
+      html body footer a:link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #6a0f49; }
+      html body footer a:visited {
+        color: #6a0f49; }
+      html body footer a:hover {
+        color: #c9ffe2; }
+    @media only screen and (min-width: 1024px) {
+      html body .carousel-inner .carousel-item img {
+        height: 450px; }
+      html body .nav__menu {
+        height: 50px;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: space-between; }
+      html body iframe {
+        width: 100%;
+        height: 350px; }
+      html body .main__p--margin {
+        width: 90%;
+        height: auto; } }
+    @media only screen and (max-width: 576px) {
+      html body .article__div--borde {
+        border-bottom: 1px solid #6a0f49; }
+      html body .div__main--borde {
+        display: none; }
+      html body .body__div--borde {
+        border-top: 1px solid #F0F7F4 !important; }
+      html body h1 {
+        font-size: 1.8rem; }
+      html body .main__h2--black {
+        font-size: 1rem; } }
+    @media only screen and (max-width: 768px) {
+      html body p {
+        font-size: 1.2rem; }
+      html body button {
+        padding: 0;
+        font-size: 1rem; }
+      html body footer {
+        font-size: 1rem; }
+      html body .footer__img--display img {
+        padding-right: 5px; }
+      html body iframe {
+        width: 100%;
+        height: 300px; }
+      html body table {
+        font-size: 1rem; }
+      html body form {
+        font-size: 1rem; }
+      html body nav {
+        font-size: 1rem; }
+      html body .header__logo {
+        width: 100px;
+        height: 50px;
+        display: flex;
+        align-items: center; }
+      html body #navbarSupportedContent {
+        position: absolute;
+        z-index: 1; }
+      html body .nav__submenu a {
+        font-size: 1rem; }
+      html body .main__p {
+        font-size: 1rem;
+        line-height: 1.1; }
+      html body .main__h3 {
+        font-size: 1rem;
+        line-height: 1.1; }
+      html body .main__h3--black {
+        font-size: 1rem;
+        color: #566573 !important;
+        text-shadow: 2px 2px 4px; }
+      html body .main__button {
+        font-size: 1rem; }
+      html body .article__h2--violeta {
+        font-size: 1.4rem; }
+      html body .article__h2--verde {
+        font-size: 1.4rem; }
+      html body .article__h3--lila {
+        font-size: 1.3rem; }
+      html body .div__certificaciones {
+        box-sizing: border-box;
+        padding-left: 0px; }
+      html body .div__practicas {
+        box-sizing: border-box;
+        padding-left: 0px; }
+      html body article .article__h3--lila {
+        margin-left: 10px; } }
